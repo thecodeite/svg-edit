@@ -1,0 +1,40 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  xborder-top: 1px solid black;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.Editor {
+  background: #e0e0e0;
+}
+
+.Editor textarea {
+  width: calc(100% - 4px - 4px);
+  height: 200px;
+  margin: 4px;
+  padding: 4px;
+}
+
+.Preview {
+  background: white;
+  height: calc(100% - 200px - 12px);
+}
+
+button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
